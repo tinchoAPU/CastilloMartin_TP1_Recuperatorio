@@ -39,4 +39,9 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
         }
     }
+
+    public void ApplySpeedBoost(float multiplier)
+    {
+        moveSpeed *= multiplier;
+    }
 }
